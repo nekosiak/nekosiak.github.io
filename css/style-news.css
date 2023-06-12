@@ -1,0 +1,25 @@
+@media (min-width: 850px) and (max-width: 1200px){
+    p{
+      font-size: 25px;
+    }    
+ }
+  @media (min-width: 600px) and (max-width: 850px){
+    p{
+        font-size: 20px;
+      } 
+  }
+  @media (min-width: 400px) and (max-width: 600px){
+    p{
+        font-size: 20px;
+      } 
+  }
+.main{
+    font-size: 25px;
+    padding: 50px;
+}
+p{
+    padding-top: 30px;
+}
+footer{
+    margin-top: 200px;
+}
