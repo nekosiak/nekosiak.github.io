@@ -1,0 +1,92 @@
+@media (min-width: 800px) and (max-width: 1500px){
+  .g1{  
+    display: grid;
+    grid-template-columns: auto auto auto; 
+  }
+  .graf{   
+     width:100%;
+  }
+  
+}
+@media (min-width: 600px) and (max-width: 800px){
+  .g1{  
+    display: grid;
+    grid-template-columns: auto auto; 
+  }
+  .graf{   
+     width:100%;
+  }
+ 
+}
+@media (min-width: 400px) and (max-width: 600px){ 
+  .g1{  
+    display: grid;
+    grid-template-columns: auto auto; 
+  }
+  .graf{   
+    width:100%;
+  }  
+}
+.mainUp{  
+    background: 
+    linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)),
+     url(../img/pic2.png);   
+    min-height: 276px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.upText{
+  text-align: center;
+ padding-top: 70px;
+  text-transform: uppercase;
+  font-size: 37px;
+  color: #f2f2f2;
+ 
+}
+.input{  
+  height: 45px;
+  width: 300px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+input:focus {    
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+  outline: none;
+}
+.button{
+  width: 100%;
+ max-width: 100px;
+  height: 46px;
+  background-color: #89ca62;
+  color: white;    
+  border-radius: 3px;
+  border: none; 
+  font-size: 20px;
+}
+.instr{
+  text-align: center;
+  padding: 50px;  
+   font-size: 37px;
+   color: #343644;   
+}
+a{
+  color: #f2f2f2;
+  text-decoration: none;
+} 
+/*
+.g1{  
+  display: grid;
+  grid-template-columns: auto auto auto; 
+}*/
+.graf1{
+  padding: 40px;
+}
+.graftext{
+  font-size: 23px;
+  text-align: center;
+  background-color: grey;
+}
