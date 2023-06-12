@@ -1,0 +1,44 @@
+
+@media (min-width: 850px) and (max-width: 1200px){
+         .button{
+         max-width: 200px;
+     }   
+  }
+  @media (min-width: 600px) and (max-width: 850px){
+    .button{
+         max-width: 120px;
+     }    
+  }
+  @media (min-width: 400px) and (max-width: 600px){    
+     .button{
+         max-width: 100px;
+     }     
+  }
+.main{
+    font-size: 30px;
+    padding: 50px;
+}
+.grid{
+    display: grid;
+  grid-template-columns: auto auto auto; 
+  padding: 50px;
+}
+p{
+    text-align: center;  
+     font-size: 37px;
+     color: #343644;   
+  }
+
+.button{
+    width: 340px;
+    font-size: 20px;
+   
+    height: 46px;
+    background-color: #343644;
+    color: white;    
+    border-radius: 3px;
+    border: none;
+}
+footer{
+    margin-top: 70px;
+}
