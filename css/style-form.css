@@ -1,0 +1,26 @@
+.text{
+    padding: 40px;
+    color: #343644;    
+}    
+.textbox{    
+    height: 300px;    
+    font-size: 25px;
+    padding: 10px;
+    border: 2px;
+    background-color: #4a3;
+    color: white;
+}
+button{
+    margin-left: 40%;
+    margin-bottom: 40px;
+}
+.submit{
+    width: 100%;
+    max-width: 321px;
+    height: 46px;
+    background-color: #343644;
+    color: #c0d0d6;    
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;           
+}
