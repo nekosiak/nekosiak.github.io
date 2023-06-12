@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "FiraSans-Regular";
+    src: url("../font/FiraSans-Regular.ttf") format("truetype");
+    font-size: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "FiraSans-Bold";
+    src: url("../font/FiraSans-Bold.ttf") format("truetype");
+    font-size: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "DancingScript-SemiBold";
+    src: url("../font/DancingScript-SemiBold.ttf") format("truetype");
+    font-size: normal;
+    font-weight: 300;
+}
+@media (min-width: 850px) and (max-width: 1200px){
+  .menuItem{
+    font-size: 20px;
+  }  
+}
+@media (min-width: 600px) and (max-width: 850px){
+  .menuItem{
+    font-size: 19px;
+  }
+  .logo{
+    opacity: 0;
+  } 
+  .menuItem:hover .menuItemDown{
+    display: block;
+  }   
+}
+@media (min-width: 400px) and (max-width: 600px){
+  .menuItem{
+    font-size: 15px;
+  }
+  .logo{
+    opacity: 0;
+  }
+  .menuItem:hover .menuItemDown{
+    display: block;
+  }
+  .foot{
+    font-size: 13px;
+  }
+}
+
+body{     
+    text-decoration: none;
+  /*  width: 1900px;*/
+    max-width: 1900px;  
+    min-height: 100%;
+    list-style: none;  
+    font-family: "FiraSans-Regular";
+    background-color: #f2f2f2;    
+}
+header{
+    height: 70px;
+   background-color: #343644;     
+}
+.logo{
+    margin-left: 10px;
+    display: flex;
+}
+.arh{
+    font-family: "DancingScript-SemiBold";
+    font-size: 33px;    
+    margin-top: 18px;
+    margin-left: 6px;
+    color: #c0d0d6;
+}
+.menuHeader{
+    display: flex;
+    justify-content: center;
+    margin-top: -70px;  
+    position: relative;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #f2f2f2;
+    cursor: pointer;    
+}
+.menuItem{  
+    padding: 20px;
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.menuItem:hover{
+  background-color:  #5f6279;
+}
+.menuItemDown{
+  display: none;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 50px;
+  background-color: #343644;
+ /* min-width: 160px;*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.menuItemDown a {
+  color: #f2f2f2;
+  padding: 12px 28px;
+  text-decoration: none;
+  display: block;
+}
+.menuItemDown a:hover{
+  background-color:  #5f6279;
+}
+.menuItem:hover .menuItemDown{
+  display: block;
+}
+
+a{
+  color: #f2f2f2;
+  text-decoration: none;
+}
+footer{  
+  height: 70px;
+  background-color: #343644; 
+  display: grid;
+  grid-template-columns: auto 200px;
+}
+.foot{
+  align-self: center;
+  text-align: center;
+  padding-left: 200px;
+  color: white;
+}
+.footpic{
+  align-self: flex-end;  
+  padding: 20px; 
+  cursor: pointer;
+}
