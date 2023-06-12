@@ -1,0 +1,38 @@
+@media (min-width: 850px) and (max-width: 1200px){
+    p{
+      font-size: 25px;
+    }    
+ }
+  @media (min-width: 600px) and (max-width: 850px){
+    p{
+        font-size: 20px;
+    } 
+    .img{
+        display: none;
+    }
+  }
+  @media (min-width: 400px) and (max-width: 600px){
+    p{
+        font-size: 20px;
+      } 
+      .img{
+          display: none;
+      }
+  }
+.main{
+    font-size: 30px;
+    padding: 50px;
+}
+.text{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+.img{
+    padding-left: 20px;
+}
+footer{
+    margin-top: 50px;
+}
